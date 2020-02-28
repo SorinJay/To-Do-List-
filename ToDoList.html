@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <title>Task List Project</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+      <div class="col-md-8 mx-auto">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title text-center">Task List</h5>
+						<form id="task-form">
+							<div class="form-group">
+								<input type="text" class="form-control" name='task' id="task" placeholder="New Task">
+							</div>
+							<div class="form-group">
+								<input type="submit" value="Add New Task" class="btn btn-primary btn-block">
+							</div>
+						</form>
+						<hr>
+						<h5 class="card-subtitle text-center mt-3 mb-2">Tasks</h5>
+
+						<!-- <div id="filter-tasks" class="form-group"> -->
+							<!-- <input type="text" class="form-control" name='filter' id="filter"> -->
+							<!-- <label for="filter">Filter Tasks</label> -->
+						<!-- </div> -->
+						<ul id="task-list-display" class="list-group list-group=flush">
+            </ul>
+						<div class="form-group mt-3">
+							<a href="#" class="clear-tasks btn btn-dark btn-block" role="button">Clear Tasks</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="TaskJavascript.js"></script>
+</body>
